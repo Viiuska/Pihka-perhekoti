@@ -193,6 +193,7 @@ a:hover {
 .info-rules p,
 .info-values p {
   grid-column: 2;
+  padding-left: 1rem;
   margin: 0;
   align-self: center;
 }
