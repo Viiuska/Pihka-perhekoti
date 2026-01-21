@@ -323,6 +323,10 @@ footer {
     padding-bottom: 2rem;
   }
 
+  .info-contact {
+    align-items: center;
+  }
+
   footer {
     align-content: center;
   }
