@@ -206,6 +206,12 @@ a:hover {
   align-items: center;
 }
 
+.info-contact img {
+  grid-column: 2;
+  width: 100%;
+  max-width: 180px;
+}
+
 address {
   font-style: normal;
   text-align: center;
