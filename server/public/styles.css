@@ -119,6 +119,21 @@ a:hover {
   width: 100%;
 }
 
+.avoimet-ovet {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  align-items: center;
+  padding: 2rem;
+}
+
+.avoimet-ovet img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 1rem;
+}
+
 .info-content {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -335,5 +350,9 @@ footer {
 
   footer {
     align-content: center;
+  }
+
+  .avoimet-ovet {
+    grid-template-columns: 1fr;
   }
 }
